@@ -1,0 +1,50 @@
+[
+	{
+		"name": "L.E.D.",
+		"description": "Jeu de plateforme qui ne se contrôle qu'avec une seule touche.",
+		"image": "/assets/images/projects/led.png",
+		"url": "https://tomigamesdev.itch.io/led"
+	},
+	{
+		"name": "A Cube's Tale (Indie Dev Game Jam #3)",
+		"description": "Puzzle game UE5, le but est de traverser toutes les pièces en utilisant un cube.",
+		"image": "/assets/images/projects/cube.png",
+		"url": "https://tomigamesdev.itch.io/a-cubes-tale"
+	},
+	{
+		"name": "Humanbusters (Ryan Laley Games Fall Jam 2023)",
+		"description": "Jeu d'horreur UE5 dans lequel il faut éviter de se faire capturer par le Ghostbuster",
+		"image": "/assets/images/projects/humanbusters.png",
+		"url": "https://tomigamesdev.itch.io/humanbusters"
+	},
+	{
+		"name": "Into Sleep (Brackeys Game Jam 2023.2)",
+		"description": "Platformer 2D, le joueur contrôle un mouton imaginaire qui aide un homme à s'endormir.",
+		"image": "/assets/images/projects/sleep.png",
+		"url": "https://tomigamesdev.itch.io/into-sleep"
+	},
+	{
+		"name": "Maze In The Dark (GMTK Game Jam 2023)",
+		"description": "Petit jeu de labirynthe à l'aveugle créé en 2 jours.",
+		"image": "/assets/images/projects/maze.png",
+		"url": "https://tomigamesdev.itch.io/maze-in-the-dark"
+	},
+	{
+		"name": "Exit The Mirror (Brackeys Game Jam 2023.1)",
+		"description": "Platformer 2D dans lequel les niveaux se font normalement, puis à l'envers.",
+		"image": "/assets/images/projects/mirror.png",
+		"url": "https://tomigamesdev.itch.io/exit-the-mirror"
+	},
+	{
+		"name": "PYLON",
+		"description": "Prototype de platformer FPS Unity",
+		"image": "/assets/images/projects/pylon.png",
+		"url": null
+	},
+	{
+		"name": "Wall Hops",
+		"description": "Jeu mobile dont le but est d'éviter des obstacles en faisant des sauts muraux.",
+		"image": "/assets/images/projects/wall.png",
+		"url": null
+	}
+]

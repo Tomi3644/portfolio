@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "2024",
+		"role": "Vendeur de jeux de société",
+		"company": "Ludik Ouest",
+		"description": "Vente de jeux de sociétés et de jeux de cartes à collectionner.",
+		"logo": "/assets/images/experiences/ludik.ico"
+	},
+	{
+		"dates": "2023",
+		"role": "Développeur d'outils numériques",
+		"company": "Arketeam",
+		"description": "Création d'outils pour faciliter le travail des entreprises",
+		"logo": "/assets/images/experiences/arketeam.ico"
+	},
+	{
+		"dates": "2022",
+		"role": "Développeur Unity",
+		"company": "Syko Studio",
+		"description": "Création d'outils de formations pour les entreprises en réalité virtuelle.",
+		"logo": "/assets/images/experiences/syko.ico"
+	}
+]

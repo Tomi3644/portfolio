@@ -1,0 +1,65 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="A propos de moi">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="A propos de moi"
+      description="Je suis passioné par la création de jeux depuis mon enfance et donne tout pour en faire mon métier. J'expérimente avec Unity et Unreal depuis 2021 et participe à des Game Jams depuis février 2022."
+    />
+
+    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Stages en entreprise
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          )
+        })
+      }
+    </div>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Restons en contact !</h2>
+    <p
+      class="text-sm leadingn-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Si vous voulez me contacter ou être au courant de mes projets actuels, n'hésitez pas à <a
+        href="https://x.com/TomiGamesDev"
+        target="_blank"
+        class="text-indigo-600 underline">me suivre sur X</a
+      >, ou me joindre <a href="mailto:tomigames.dev@gmail.com" class="text-indigo-600 underline"
+        >par mail</a
+      > et je vous répondrai dès que possible !
+    </p>
+  </section>
+</Layout>
